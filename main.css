@@ -17,8 +17,7 @@
 }
 
 .image_produit{
-    width: 100%px;
-    height:100%px;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +30,7 @@
     border-radius: 18px;
 }
 .info_produi{
+    width: 50%;
     margin-top: 8px;
     margin-left: 2px;
 }
