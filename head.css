@@ -15,7 +15,7 @@
     border-bottom: 5px solid #ED9822;
 }
 .barrDeNavigations img{
-    width: 35%;
+    width: 140px;
 }
 
 .spase{
@@ -34,7 +34,7 @@ background-color: aqua;
     object-fit: cover;
 }
 .texte{
-    margin-top: -140px;
+    margin-top: -90px;
     margin-left: 20px;
 }
 .texte h1{
