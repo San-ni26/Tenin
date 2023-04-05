@@ -37,3 +37,9 @@ background-color: aqua;
     margin-top: -140px;
     margin-left: 20px;
 }
+.texte h1{
+    font-size: 20px;
+}
+.texte p {
+    font-size: 12px;
+}
