@@ -94,3 +94,19 @@ background-color: aqua;
     text-align: center;
     margin-bottom: 12px;
 }
+
+
+/*Bas de page*/
+.baDePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+.baDePage p{
+    text-align: center;
+    color: #eaeaea;
+    font-size: 8px;
+}
