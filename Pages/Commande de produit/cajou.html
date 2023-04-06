@@ -12,13 +12,12 @@
         <div class="formulair">
             <div class="img_logo">
                 <img src="./logo/Logo.png">
+                <h1>Jus de Cajou</h1>
             </div>
-            <p>Non du produit</p>
-            <input type="text" id="produit" value=" Cajou" readonly>
             <p>Non complet</p>
-            <input type="text" id="nomComplet">
+            <input type="text" id="nomComplet" placeholder=" Non et Prenom">
             <p>Numéro de téléphone</p>
-            <input type="number" id="numeroTel">
+            <input type="number" id="numeroTel" placeholder=" +223 ">
             <p class="info_w">Vous allez être redirigée vers notre compte WhatsApp </p>
             <input class="envoy" type="submit" onclick="whatsapp()">
         </div>
@@ -26,12 +25,11 @@
 </body>
 <script>
     function whatsapp(){
-        var produit = document.getElementById("produit").value;
         var nomComplet = document.getElementById("nomComplet").value;
         var numeroTel = document.getElementById("numeroTel").value;
         
         var whatsappurl = "https://wa.me/94141804?text=" 
-        +"Nom du produit:"+produit+"%0a"
+        +"Nom du produit:"+"Jus de Cajou"+"%0a"
         +"Nom:"+nomComplet+"%0a"
         +"Numéro de téléphone:"+numeroTel+"%0a"
         window.open(whatsappurl,"_blank").focus();
