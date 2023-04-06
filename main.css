@@ -18,7 +18,7 @@
 }
 
 .image_produit{
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
     border-radius: 18px;
 }
 .info_produi{
-    width: 60%;
+    width: 50%;
     margin-top: 8px;
     margin-left: 2px;
 }
@@ -40,7 +40,7 @@
 }
 
 .info_produi p{
-    font-size: 9px;
+    font-size: 7px;
     margin-bottom: 5px;
 }
 .info_produi a{
@@ -54,13 +54,15 @@
     font-size: 10px;
     color: #36AA49;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 .info_produi h6{
     font-weight: 400;
     font-size: 8px;
 }
-.info_produi h4{
-    font-weight: 400;
-    font-size: 8px;
-    margin-bottom: 12px;
+
+.info_produi h2{
+    margin-top: 3px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
 }
