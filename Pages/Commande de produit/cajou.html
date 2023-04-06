@@ -14,14 +14,27 @@
                 <img src="./logo/Logo.png" alt="">
             </div>
             <p>Non du produit</p>
-            <input type="text" value=" Cajou" readonly>
+            <input type="text" id="produit" value=" Cajou" readonly>
             <p>Non complet</p>
-            <input type="text">
+            <input type="text" id="nomComplet">
             <p>Numéro de téléphone</p>
-            <input type="number">
+            <input type="number" id="numeroTel">
             <p class="info_w">Vous allez être redirigée vers notre compte WhatsApp </p>
-            <input class="envoy" type="submit" value="Envoyer " >
+            <input class="envoy" type="submit" onclick="whatsApp()" value="Envoyer " >
         </div>
     </div>
+    <script>
+        function whatsApp(){
+            var produit = documentgetElementByld("produit").value;
+            var nomComplet = documentgetElementByld("nomComplet").value;
+            var numeroTel = documentgetElementByld("numeroTel").value;
+            
+            var whatsappurl = "https://wa.me/94141804?text=" 
+            +"Nom du produit:"+produit+"%0a"
+            +"Nom:"+nomComplet+"%0a"
+            +"Numéro de téléphone:"+numeroTel+"%0a"
+            window.open(whatsappurl,"_blank").focus();
+        }
+    </script>
 </body>
 </html>
