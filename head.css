@@ -56,3 +56,41 @@ background-color: aqua;
     color: #000000;
     border-radius: 10px;
 }
+
+/*pour les informartions*/
+/*presentations*/
+.logo_info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+.logo_info img{
+    width: 50px;
+    padding: 0px 40%;
+    margin-bottom: 4px;
+}
+.logo_info h1{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 7px;
+    color: #000000;
+    padding: 0px 40%;
+    margin-bottom: 4px;
+}
+/*paragrave*/
+.paragraf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.paragraf p{
+    width: 330px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+}
