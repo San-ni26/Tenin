@@ -23,3 +23,53 @@ width: 100%;
 height: 70px;
 background-color: aqua;
 }
+
+.contenair_boc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocProduit{
+width: 170px;
+height: 290px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+border-radius: 10px;
+background-color: rgb(231, 231, 231);
+}
+.blocProduit .img_epices{
+    width: 100%;
+    height: 170px;
+    border-bottom: 5px solid #ED9822;
+}
+.img_epices img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+ .info_epice {
+    margin-top: -10px;
+    width: 90%;
+}
+.blocProduit h1{
+    font-size: 17px;
+}
+.blocProduit p {
+    color: #36AA49;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.blocProduit input{
+    background-color: #ED9822;
+    border: none;
+    padding: 4px 12px;
+    color: #ffffff;
+    border-radius: 5px;
+}
