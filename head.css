@@ -21,7 +21,7 @@
 .spase{
 width: 100%;
 height: 70px;
-background-color: aqua;
+background-color: rgb(255, 255, 255);
 }
 .image{
     width: 100%;
@@ -75,10 +75,10 @@ background-color: aqua;
 .logo_info h1{
     font-weight: 600;
     font-size: 14px;
-    margin-left: 7px;
     color: #000000;
-    padding: 0px 40%;
+    width: 100%;
     margin-bottom: 4px;
+    text-align: center;
 }
 /*paragrave*/
 .paragraf {
@@ -86,7 +86,6 @@ background-color: aqua;
     display: flex;
     justify-content: center;
     justify-content: center;
-    background-color: aqua;
 }
 .paragraf p{
     width: 330px;
