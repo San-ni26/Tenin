@@ -11,7 +11,7 @@
     <div class="contenair_formuler">
         <div class="formulair">
             <div class="img_logo">
-                <img src="./logo/Logo.png" alt="">
+                <img src="./logo/Logo.png">
             </div>
             <p>Non du produit</p>
             <input type="text" id="produit" value=" Cajou" readonly>
@@ -20,21 +20,22 @@
             <p>Numéro de téléphone</p>
             <input type="number" id="numeroTel">
             <p class="info_w">Vous allez être redirigée vers notre compte WhatsApp </p>
-            <input class="envoy" type="submit" onclick="whatsApp()" value="Envoyer " >
+            <input class="envoy" type="submit" onclick="whatsapp()">
         </div>
     </div>
-    <script>
-        function whatsApp(){
-            var produit = documentgetElementByld("produit").value;
-            var nomComplet = documentgetElementByld("nomComplet").value;
-            var numeroTel = documentgetElementByld("numeroTel").value;
-            
-            var whatsappurl = "https://wa.me/94141804?text=" 
-            +"Nom du produit:"+produit+"%0a"
-            +"Nom:"+nomComplet+"%0a"
-            +"Numéro de téléphone:"+numeroTel+"%0a"
-            window.open(whatsappurl,"_blank").focus();
-        }
-    </script>
 </body>
+<script>
+    function whatsapp(){
+        var produit = document.getElementById("produit").value;
+        var nomComplet = document.getElementById("nomComplet").value;
+        var numeroTel = document.getElementById("numeroTel").value;
+        
+        var whatsappurl = "https://wa.me/94141804?text=" 
+        +"Nom du produit:"+produit+"%0a"
+        +"Nom:"+nomComplet+"%0a"
+        +"Numéro de téléphone:"+numeroTel+"%0a"
+        window.open(whatsappurl,"_blank").focus();
+    }
+</script>
+
 </html>
