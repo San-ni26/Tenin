@@ -20,7 +20,7 @@ body{
 }
 
 .contenair_formuler .formulair{
-    width: 230px;
+    width: 280px;
     height: 90%;
 }
 .img_logo{
@@ -44,9 +44,9 @@ body{
 text-align: center;
 }
 .formulair input{
-    padding: 7px 0px;
+    padding: 9px 0px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #36AA49;
 }
@@ -59,10 +59,12 @@ text-align: center;
 .formulair .info_w{
     color: black;
     font-size: 9px;
+    margin-bottom: 7px;
 }
 .formulair .envoy{
     width: 70%;
     background-color: #ED9822;
     border: none;
     color: rgb(255, 255, 255);
+    
 }
