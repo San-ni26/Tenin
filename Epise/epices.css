@@ -31,6 +31,7 @@ background-color: aqua;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .blocProduit{
@@ -41,7 +42,7 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top: 20px;
 border-radius: 10px;
-background-color: rgb(231, 231, 231);
+background-color: rgb(243, 243, 243);
 }
 .blocProduit .img_epices{
     width: 100%;
@@ -72,4 +73,20 @@ background-color: rgb(231, 231, 231);
     padding: 4px 12px;
     color: #ffffff;
     border-radius: 5px;
+}
+
+
+
+.baDePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+.baDePage p{
+    text-align: center;
+    color: #eaeaea;
+    font-size: 10px;
 }
